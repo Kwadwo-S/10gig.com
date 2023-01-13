@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>10gig</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <script src="https://kit.fontawesome.com/421fc72db5.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">10<span>gig</span></a>
+
+   <nav class="navbar">
+      <div id="close-menu-info" class="fas fa-times" style="background: transparent;color: #fff;"></div> 
+      <a href="#home">home</a>
+      <a href="#products">products</a>
+      <a href="#services">about</a>
+      <a href="#contact">contact</a>
+   </nav>
+
+   <div class="icons">
+    <div id="menu-btn" class="fas fa-bars" style="background: transparent; color: #fff;"></div>
+    <!-- <div id="info-btn" class="fas fa-info-circle" style="background: transparent; color: #fff;"></div>   -->
+   <a href="#cart" id="cart-btn" class="fas fa-cart-arrow-down" style="background: transparent; color: #fff;"></a>
+ </div>
+
+</header>
+
+<!-- home section begins -->
+
+<section class="home" id="home">
+    <div class="slider">
+       <div class="slide active" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 100%), url('images/pic1.jpg')">
+           <div class="containers">
+               <div class="caption">
+                <h1>Welcome to 10gig</h1>
+                <a href="#about">Shop now</a>
+            </div>
+           </div>
+       </div>
+       <div class="slide" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 100%), url('images/pic2.jpg')">
+           <div class="containers">
+               <div class="caption">
+                   <h1>Your satisfaction is our priority</h1>
+                   <a href="#about">Shop now</a>
+                </div>
+           </div>
+       </div>
+       <div class="slide" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.6) 100%), url('images/pic3.jpg')">
+           <div class="containers">
+               <div class="caption">
+                   <h1>Your number one electronic appliance hub</h1>
+                   <a href="#about">Shop now</a>
+                </div>
+           </div>
+       </div>
+    </div>
+  
+   <!-- controls  -->
+   <div class="controls">
+       <div class="prev"><</div>
+       <div class="next">></div>
+   </div>
+
+   <!-- indicators -->
+   <div class="indicator">
+   </div>
+
+ </section>
+
+ <!-- products section -->
+ <!-- products section -->
+ <div class="products" id="products">
+ <section class="container-product content-section">
+    <h1 class="section-header">PRODUCTS</h1>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">iPhone</span>
+            <img class="shop-item-image" src="images/pic12.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">₵7000</span>
+                <button class="btn-product btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Samsung</span>
+            <img class="shop-item-image" src="images/pic11.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">₵6500</span>
+                <button class="btn-product btn-primary shop-item-button"type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Infinix</span>
+            <img class="shop-item-image" src="images/pic6.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">₵6000</span>
+                <button class="btn-product btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Huawei</span>
+            <img class="shop-item-image" src="images/pic7.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">₵5500</span>
+                <button class="btn-product btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Techno</span>
+            <img class="shop-item-image" src="images/pic8.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">₵5000</span>
+                <button class="btn-product btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Tesla</span>
+            <img class="shop-item-image" src="images/pic9.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">₵6300</span>
+                <button class="btn-product btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-product content-section" id="cart">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+
+        
+        <span class="cart-total-price">₵0</span>
+    </div>
+    <button class="btn-product btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+</div>
+
+
+ 
+
+
+
+    
+
+ <!-- footer -->
+ <footer class="footer" id="contact">
+   <div class="footer-top">
+         <div class="footer-col-1">
+            <h1>!!...Your logo will be here...!!</h1>
+           <!-- <img class="footer-logo" src=""> -->
+           <p class="magnificent">"God Is Great"</p>
+           <p class="purpose">"My aim is to serve the world, high quality and durable products"</p>
+       </div>
+       <div class="footer-col-2">
+           <div class="oneh2">
+             <h1>Follow Us</h1>
+         <ul>
+             <a href="" class="social-icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+             <a href="" class="social-icons"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+             <a href="" class="social-icons"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+         </ul>
+           </div>
+        <div class="twoh2">
+         <h1>Call/Whatsapp</h1>
+         <ul>
+            <a href="tel:0264342586" class="social-icons"><i class="fa fa-phone" aria-hidden="true"></i></a>
+           <a href="https://wa.me/message/PH4E36QO56D7D1" class="social-icons"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+         </ul>
+       </div>
+       </div>
+   </div>
+ <hr>
+ <p class="copyright">&copy;Copyright 2022. 10gig. All rights reserved.</p> 
+ </footer>
+  <!-- footer ends -->
+
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>lightGallery(document.querySelector('.projects .box-container'));</script>
+
+</body>
+</html>
